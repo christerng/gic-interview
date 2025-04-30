@@ -16,12 +16,6 @@ On Windows, use powershell to install [uv](https://docs.astral.sh/uv/).
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
 
-Use uv to install dependencies locally.
-
-```bash
-uv sync
-```
-
 Use uv to run tests.
 
 ```bash
