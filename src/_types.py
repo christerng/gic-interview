@@ -223,7 +223,9 @@ class Movie:
         footer_row.append(" ")
         for i in range(len(self._seats[0])):
             footer_row.append(str(i + 1))
-        booking_map.append("   ".join(footer_row))
+        booking_map.append(
+            "   ".join(footer_row[:10]) + "  " + "  ".join(footer_row[10:])
+        )
 
         return "\n".join(booking_map)
 
