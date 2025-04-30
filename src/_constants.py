@@ -1,0 +1,12 @@
+from typing import Final
+
+MOVIE_MIN_ROWS: Final = 1
+MOVIE_MAX_ROWS: Final = 26
+MOVIE_MIN_COLS: Final = 1
+MOVIE_MAX_COLS: Final = 50
+
+BOOKING_ID_PAD: Final = 4
+BOOKING_MAP_MIN_WIDTH: Final = 27
+BOOKING_MAP_COL_WIDTH: Final = 4
+
+SCREEN_DEFAULT_SPACING: Final = 2
