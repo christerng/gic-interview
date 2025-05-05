@@ -10,12 +10,6 @@ On MacOS or Linux, use curl to install [uv](https://docs.astral.sh/uv/).
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
-On Windows, use powershell to install [uv](https://docs.astral.sh/uv/).
-
-```powershell
-powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
-```
-
 Use uv to run tests.
 
 ```bash
